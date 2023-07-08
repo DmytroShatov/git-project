@@ -1,3 +1,10 @@
 git init 
 git add .
-git commit
+git commit -m "add all project"
+git branch blog
+git checkout blog
+git add blog/
+git commit -m "add blog"
+git checkout master 
+git remote add origin https://github.com/DmytroShatov/git-project.git
+git push -u origin master
